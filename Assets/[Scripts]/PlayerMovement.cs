@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
+
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 4;
@@ -39,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
     }
     public void FixedUpdate()
     {
+       
+
         Move();
 
         if (moveLeft)
@@ -78,6 +81,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
+       
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundRadius, groundMask);
 
         horizontalInput = Input.GetAxis("Horizontal");

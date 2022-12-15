@@ -6,21 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/[Scenes]/Main Menu Scene.unity
-    guid: 75d5b939690ef8e4c8de315e66fe9982
+    path: Assets/[Scenes]/Level3_Mutiplayer.unity
+    guid: d8e3a2db93293524aa634405c26395b5
   - enabled: 1
-    path: Assets/[Scenes]/Play Scene.unity
-    guid: 699de584d3ba4a240a920d572e1384fb
-  - enabled: 1
-    path: Assets/[Scenes]/Level2.unity
-    guid: 634e5d410d6ba84408d0a58aee43cf18
-  - enabled: 1
-    path: Assets/[Scenes]/Level3.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/[Scenes]/Winning.unity
-    guid: cde6de6aab70a2146b2d1e402843525e
-  - enabled: 1
-    path: Assets/[Scenes]/GameOver.unity
-    guid: 2473631949d43774dba275083fc5bf89
+    path: Assets/[Scenes]/Mutiplayer.unity
+    guid: 49fa3b31c3945894986e2550091b8b13
   m_configObjects: {}
